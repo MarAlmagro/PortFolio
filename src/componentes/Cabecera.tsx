@@ -8,7 +8,7 @@ import '../../node_modules/bootstrap/dist/js/bootstrap';
 
 function Cabecera() {
   return (
-    <div id="cajaApp bg-danger bg-gradient">
+    <div className="bg-gradient">
       <div className="nombreFoto  d-inline-flex justify-content-between p-3  ">
         <div className="nombreCargo me-5">
         <h1 id="tituloPortFolio" className="display-1 text-left pt-5 pe-1 pb-3 ps-5 me-5">Pedro Cuenca Panadero </h1>
