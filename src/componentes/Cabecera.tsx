@@ -1,20 +1,25 @@
 import React from 'react';
 import fotoPedro from "../multimedia/fotoCaraPedroCuenca.jpg"
-import '../css/Cabecera.css';
+import '../css/styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../node_modules/bootstrap/dist/js/bootstrap';
 
 
 
-function Cabecera() {
-  return (
+class Cabecera extends React.Component{
+
+ 
+
+
+  render(): React.ReactNode {
+    return (
     <div className="bg-gradient">
       <div className="nombreFoto  d-inline-flex justify-content-between p-3  ">
         <div className="nombreCargo me-5">
-        <h1 className="text-secondary display-1 text-left pt-5 pe-1 pb-3 ps-5 me-5">Pedro Cuenca Panadero </h1>
-        <h2 className=" font-italic display-6 text-left ps-5">Desarrollador Full Satack</h2>
+        <h1 className="text-secondary display-3 text-left pt-5 pe-1 pb-3 ps-5 me-5">Pedro Cuenca Panadero </h1>
+        <h2 className="text-dark font-italic display-6 text-left ps-5">Desarrollador Full Satack</h2>
         </div>
-        <div className="ms-5">
+        <div className="ms-5 me-5">
           <div>
         <img src={fotoPedro} className="miFoto rounded-circle border border-4 border-secondary  img-fluid ms-5" alt="foto cara Pedro Cuenca Panadero"
          width={300} height={300}  />
@@ -37,13 +42,31 @@ function Cabecera() {
     </div>
   </div>
 </div>
-
-
-
         </div>
         </div>
+
+
+        <ul className="nav flex-column">
+  <li className="nav-item">
+    <a className="nav-link" href="#">Link0</a>
+  </li>
+  <li className="nav-item">
+    <a className="nav-link" href="#">Link1</a>
+  </li>
+  <li className="nav-item">
+    <a className="nav-link" href="#">Link2</a>
+  </li>
+  <li className="nav-item">
+    <a className="nav-link" href="#">Link3</a>
+  </li>
+</ul>
+
+
+
+
     </div>
   );
+}
 }
 
 export default Cabecera;
