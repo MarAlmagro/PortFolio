@@ -12,7 +12,7 @@ function Cabecera() {
       <div className="nombreFoto  d-inline-flex justify-content-between p-3  ">
         <div className="nombreCargo me-5">
         <h1 className="text-secondary display-1 text-left pt-5 pe-1 pb-3 ps-5 me-5">Pedro Cuenca Panadero </h1>
-        <h2 className=" --bs-cyan font-italic display-6 text-left ps-5">Desarrollador Full Satack</h2>
+        <h2 className=" font-italic display-6 text-left ps-5">Desarrollador Full Satack</h2>
         </div>
         <div className="ms-5">
           <div>
