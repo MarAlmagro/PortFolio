@@ -54,7 +54,7 @@ $theme-colors: map-merge($theme-colors , ("custom-color-gray":$custom-color-gray
   --bs-body-bg-rgb: 255, 255, 255;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --bs-gradient: linear-gradient(90deg, rgb(222, 237, 241) 46%, rgb(208, 234, 241) 55%, rgb(165, 235, 250) 70%, rgb(161, 232, 246) 85%);
+  --bs-gradient: linear-gradient(90deg, rgb(219, 230, 236) 25%, rgb(208, 234, 241) 65%, rgb(164, 188, 194) 85%, rgb(129, 168, 184) 95%);
   --bs-body-font-family: var(--bs-font-sans-serif);
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
@@ -11954,7 +11954,7 @@ textarea.form-control-lg {
   --bs-body-bg-rgb: 255, 255, 255;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --bs-gradient: linear-gradient(90deg, rgb(222, 237, 241) 46%, rgb(208, 234, 241) 55%, rgb(165, 235, 250) 70%, rgb(161, 232, 246) 85%);
+  --bs-gradient: linear-gradient(90deg, rgb(219, 230, 236) 25%, rgb(208, 234, 241) 65%, rgb(164, 188, 194) 85%, rgb(129, 168, 184) 95%);
   --bs-body-font-family: var(--bs-font-sans-serif);
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;

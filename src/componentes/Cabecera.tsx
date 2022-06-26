@@ -1,5 +1,6 @@
 import React from 'react';
 import fotoPedro from "../multimedia/fotoCaraPedroCuenca.jpg"
+import fotoPaleta from "../multimedia/paletaColores.png"
 import '../css/styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../node_modules/bootstrap/dist/js/bootstrap';
@@ -17,32 +18,50 @@ class Cabecera extends React.Component {
 
         <div className="row">
           <div className="col-8" >
-              <h1 className="text-secondary  display-4 text-left pt-5 pb-3 ps-4">Pedro Cuenca Panadero </h1>
-              <h2 className="fst-italic display-6 text-left ps-4">Desarrollador Full Stack</h2>
+              <h1 className="text-secondary  display-4 text-left pt-5 pb-3 ps-5">Pedro Cuenca Panadero </h1>
+              <h2 className="fst-italic display-6 text-left ps-5">Desarrollador Full Stack</h2>
           </div>
           <div className="col-4">
-              <img src={fotoPedro} className="rounded-circle border border-4 border-secondary img-fluid float-center mt-5 me-3" 
+              <img src={fotoPedro} className="rounded-circle border border-4 border-secondary img-fluid float-center mt-4 me-3 mb-5" 
                  alt="foto cara Pedro Cuenca Panadero" width={200} height={200} />
+          </div>
+
+          <div className="container ms-4">
+          <div className="collapse" id="navbarToggleExternalContent">
+  <div className=" p-4">
+    <h5 className="text-secondary h4">Presentación</h5>
+    <h5 className="text-secondary h4">Formación academica</h5>
+    <h5 className="text-secondary h4">Experiencias laborales</h5>
+    <h5 className="text-secondary h4">Otros datos de interés</h5>
+    <h5 className="text-secondary h4">Referencias</h5>
+  </div>
+</div>
+<nav className="navbar">
+  <div className="container-fluid">
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+  </div>
+</nav>
           </div>
         </div>
 
-        <hr className="row col-10 mt-5 m-auto placeholder-glow"/>
 
 
-        <ul className="nav flex-column col-3 mt-5 ms-4">
-          <li className="nav-item">
-            <a className="nav-link display-4" href="#">Link0</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link col-3" href="#"><p className="display-6 ">Link1</p></a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#">Link2</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#">Link3</a>
-          </li>
-        </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       </div>
 
 
