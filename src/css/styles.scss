@@ -1,13 +1,18 @@
-$gradient:linear-gradient(90deg, rgb(222, 237, 241) 46%, rgb(208, 234, 241) 55%,  rgb(165, 235, 250) 70%, rgb(161, 232, 246) 85%);
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/maps";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/utilities";
+
+
+$gradient: linear-gradient(90deg, rgb(222, 237, 241) 46%, rgb(208, 234, 241) 55%, rgb(165, 235, 250) 70%, rgb(161, 232, 246) 85%);
+
+/* $custom-color-gray: rgb(122, 29, 29);
+
+$theme-colors: map-merge($theme-colors , ("custom-color-gray":$custom-color-gray)); */
+
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
-/*@import "../../node_modules/bootstrap/scss/functions";
-@import "../../node_modules/bootstrap/scss/variables";
-
-@import "../../node_modules/bootstrap/scss/mixins";
 @import "../../node_modules/bootstrap/scss/root";
-*/
 
-h2 {
-  color: var(--bs-gray-500);
-}
+
