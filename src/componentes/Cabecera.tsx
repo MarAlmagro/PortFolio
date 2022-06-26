@@ -19,11 +19,11 @@ class Cabecera extends React.Component {
         {/* cabecera */}
 
         <div className="row">
-          <div className="col-8" >
+          <div className=" col-md-8 md" >
             <h1 className="text-secondary  display-4 text-left pt-5 pb-3 ps-5">Pedro Cuenca Panadero </h1>
             <h2 className="fst-italic display-6 text-left ps-5">Desarrollador Full Stack</h2>
           </div>
-          <div className="col-4">
+          <div className="col-md-4">
             <img src={fotoPedro} className="rounded-circle border border-4 border-secondary img-fluid float-center mt-4 me-3 mb-5"
               alt="foto cara Pedro Cuenca Panadero" width={200} height={200} />
           </div>
