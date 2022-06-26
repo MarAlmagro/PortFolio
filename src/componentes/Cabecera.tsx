@@ -1,6 +1,5 @@
 import React from 'react';
 import fotoPedro from "../multimedia/fotoCaraPedroCuenca.jpg"
-import fotoPaleta from "../multimedia/paletaColores.png"
 import '../css/styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../node_modules/bootstrap/dist/js/bootstrap';
