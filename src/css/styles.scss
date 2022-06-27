@@ -17,5 +17,9 @@ $theme-colors: map-merge($theme-colors , ("custom-color-gray":$custom-color-gray
 @import "../../node_modules/bootstrap/scss/root";
 
 
+.lineaFooter{
+    height: 250px;
+}
+
 
 
