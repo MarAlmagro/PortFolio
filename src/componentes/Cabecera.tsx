@@ -18,30 +18,33 @@ class Cabecera extends React.Component {
 
         {/* cabecera */}
 
-        <div className="row">
-          <div className=" col-md-8 md" >
-            <h1 className="text-secondary  display-4 text-left pt-5 pb-3 ps-5">Pedro Cuenca Panadero </h1>
-            <h2 className="fst-italic display-6 text-left ps-5">Desarrollador Full Stack</h2>
-          </div>
-          <div className="col-md-4">
-            <img src={fotoPedro} className="rounded-circle border border-4 border-secondary img-fluid float-center mt-4 me-3 mb-5"
-              alt="foto cara Pedro Cuenca Panadero" width={200} height={200} />
-          </div>
+        <div>
+          <div className="container-fluid row px-5">
+          <div className="container-fluid row justify-content-center">
+            <div className=" col-md-6 md" >
+              <h1 className="text-secondary  display-3 text-left pt-5 pb-3 ps-5">Pedro Cuenca Panadero </h1>
+              <h2 className="fst-italic display-6 text-left ps-5">Desarrollador Full Stack</h2>
+            </div>
+            <div className="col-md-3 px-5  d-flex justify-content-center">
+              <img src={fotoPedro} className="rounded-circle border border-4 border-secondary img-fluid float-center mt-4 me-3 mb-5"
+                alt="foto cara Pedro Cuenca Panadero" width={200} height={200} />
+            </div>
+            </div>
 
           {/* nav var */}
 
-          <div className="container ms-4 mt-5 mb-5">
+          <div className="mt-5 mb-5">
             <div className="collapse" id="navbarToggleExternalContent">
-              <div className=" p-4">
-                <h5 className="text-secondary h4">Presentación</h5>
-                <h5 className="text-secondary h4">Formación academica</h5>
-                <h5 className="text-secondary h4">Experiencias laborales</h5>
-                <h5 className="text-secondary h4">Otros datos de interés</h5>
-                <h5 className="text-secondary h4">Referencias</h5>
+              <div className="p-4 d-flex justify-content-center">
+                <h5 className="text-secondary h4 mx-5">Presentación</h5>
+                <h5 className="text-secondary h4 mx-5">Formación academica</h5>
+                <h5 className="text-secondary h4 mx-5">Experiencias laborales</h5>
+                <h5 className="text-secondary h4 mx-5">Otros datos de interés</h5>
+                <h5 className="text-secondary h4 mx-5">Referencias</h5>
               </div>
             </div>
             <nav className="navbar">
-              <div className="container-fluid">
+              <div className="container-fluid justify-content-center">
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="navbar-toggler-icon"></span>
                 </button>
@@ -49,21 +52,9 @@ class Cabecera extends React.Component {
             </nav>
           </div>
         </div>
+        </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        {/* footer */}
 
 
       </div>
