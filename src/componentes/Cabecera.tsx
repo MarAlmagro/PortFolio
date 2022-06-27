@@ -41,6 +41,7 @@ class Cabecera extends React.Component {
                 <h5 className="text-secondary h4 mx-5">Experiencias laborales</h5>
                 <h5 className="text-secondary h4 mx-5">Otros datos de interés</h5>
                 <h5 className="text-secondary h4 mx-5">Referencias</h5>
+                <h5 className="text-secondary h4 mx-5">Contacto</h5>
               </div>
             </div>
             <nav className="navbar">
@@ -55,7 +56,17 @@ class Cabecera extends React.Component {
         </div>
 
         {/* footer */}
+<div>
+  <div>
+    <footer>
+<h5>Contacta conmigo</h5>
 
+
+
+
+    </footer>
+  </div>
+</div>
 
       </div>
 
