@@ -37,12 +37,12 @@ class Cabecera extends React.Component {
             <div className="my-5">
               <div className="collapse" id="navbarToggleExternalContent">
                 <div className="p-4 d-flex justify-content-center">
-                  <Nav.Link href="./Presentacion.tsx" className="text-secondary  mx-5">Presentación</Nav.Link>
-                  <h5 className="text-secondary h4 mx-5">Formación academica</h5>
-                  <h5 className="text-secondary h4 mx-5">Experiencias laborales</h5>
-                  <h5 className="text-secondary h4 mx-5">Otros datos de interés</h5>
-                  <h5 className="text-secondary h4 mx-5">Referencias</h5>
-                  <h5 className="text-secondary h4 mx-5">Contacto</h5>
+                  <Nav.Link href="./Presentacion" className="text-secondary  mx-5 h5">Presentación</Nav.Link>
+                  <Nav.Link href="./Formacion" className="text-secondary h4 mx-5 h5">Formación academica</Nav.Link>
+                  <Nav.Link href="./ExperienciasLaborales" className="text-secondary h4 mx-5 h5">Experiencias laborales</Nav.Link>
+                  <Nav.Link href="./OtrosDatos" className="text-secondary h4 mx-5 h5">Otros datos de interés</Nav.Link>
+                  <Nav.Link href="./Referencias" className="text-secondary h4 mx-5 h5">Referencias</Nav.Link>
+                  <Nav.Link href="./Contacto" className="text-secondary h4 mx-5 h5">Contacto</Nav.Link>
                 </div>
               </div>
               <nav className="navbar">
